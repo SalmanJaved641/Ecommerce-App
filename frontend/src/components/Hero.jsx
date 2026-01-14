@@ -1,3 +1,4 @@
+import { User } from 'lucide-react';
 const Hero = () => {
   const categories = [
     "Automobiles", "Clothes and wear", "Home interiors", 
