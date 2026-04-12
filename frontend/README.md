@@ -1,16 +1,152 @@
-# React + Vite
+# 🛒 Ecommerce Fullstack Design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fullstack ecommerce web application built with React (frontend) and Node.js (backend). Developed as part of a **Developer Hub Internship Project**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Deployment Link:
 
-## React Compiler
+https://ecommerce-full-stack-webapp.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+ecommerce-fullstack-design/
+├── frontend/         # React frontend application
+├── backend/          # Node.js backend / API
+├── package.json      # Root dependencies
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- ⚛️ React.js
+- 🎨 CSS
+- 🌐 HTML
+
+### Backend
+- 🟨 Node.js
+- 🚂 Express.js
+
+---
+
+## ✨ Features
+
+- 🏠 Home page with product listings
+- 🔍 Product search and filtering
+- 🛍️ Product detail pages
+- 🛒 Shopping cart functionality
+- 👤 User authentication (Login / Register)
+- 📦 Order management
+- 📱 Responsive design for all screen sizes
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- npm or yarn
+
+---
+
+### 🔧 Installation
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/SalmanJaved641/ecommerce-fullstack-design.git
+cd ecommerce-fullstack-design
+```
+
+**2. Install root dependencies**
+```bash
+npm install
+```
+
+**3. Setup Frontend**
+```bash
+cd frontend
+npm install
+```
+
+**4. Setup Backend**
+```bash
+cd ../backend
+npm install
+```
+
+---
+
+### ▶️ Running the App
+
+**Start the backend server:**
+```bash
+cd backend
+npm start
+```
+
+**Start the frontend (in a new terminal):**
+```bash
+cd frontend
+npm run dev
+```
+
+The app will be running at:
+- Frontend: `http://localhost:5173`
+- Backend API: `http://localhost:5000`
+
+---
+
+## 🌍 Environment Variables
+
+Create a `.env` file in the `backend` folder:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+```
+
+> ⚠️ Never commit your `.env` file to GitHub!
+
+---
+
+
+## 🤝 Contributing
+
+This is an internship project. Contributions are welcome!
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 👨‍💻 Author
+
+**Salman Javed**
+- GitHub: [@SalmanJaved641](https://github.com/SalmanJaved641)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgements
+
+- Developer Hub Internship Program
+- React.js Documentation
+- Node.js Community
