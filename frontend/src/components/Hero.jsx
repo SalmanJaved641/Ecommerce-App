@@ -25,7 +25,7 @@ const Hero = () => {
         {/* Main Banner */}
         <div className="flex-grow relative h-[380px] rounded-md overflow-hidden">
           <img 
-            src="/assets/banner.jpg" // Change this to your image name
+            src="/assets/hero-image.png" // Change this to your image name
             alt="Banner" 
             className="w-full h-full object-cover"
           />
